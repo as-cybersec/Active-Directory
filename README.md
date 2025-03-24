@@ -46,6 +46,7 @@ Windows 10 Client: Configured as a domain-joined workstation.
 
 To ensure consistent communication, I assigned a static IP address to the Windows Server.
 
+
 ![dc-static-ip](https://github.com/user-attachments/assets/3a3541aa-6bf4-4ff4-a744-9ab12bad676d)
 ![dc-static-ip2](https://github.com/user-attachments/assets/2ba5b2b0-763c-4c46-a1dd-62de5c57b34e)
 
@@ -65,6 +66,7 @@ I installed the AD DS, DHCP, and DNS roles to enable the server to act as a Doma
 ### Promoting the Server to a Domain Controller
 
 The server was promoted to a Domain Controller, and a new forest named cyberdfir.local was created.
+
 ![dc-promote](https://github.com/user-attachments/assets/dc9084f0-6fa5-49dd-b50f-043f8e3f0e6f)
 ![dc-promote2](https://github.com/user-attachments/assets/299b5ec5-7927-4898-bb08-5a980dc3667d)
 ![dc-promote3](https://github.com/user-attachments/assets/09c61d54-149e-48ab-ab62-41752291bafe)
@@ -77,6 +79,7 @@ The server was promoted to a Domain Controller, and a new forest named cyberdfir
 ### Configuring DHCP
 
 I added and configured the DHCP role on the Domain Controller. An IP scope was defined to allocate IP addresses to client devices.
+
 ![ip-scope](https://github.com/user-attachments/assets/524fbd31-adaa-4844-8f73-2531e44e2ef0)
 
 ![dhcp-scope](https://github.com/user-attachments/assets/fa1fab8e-5746-4ff7-bc23-cf94c1223760)
